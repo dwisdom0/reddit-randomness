@@ -16,11 +16,11 @@ Each row represents one result.
 
 ## `summary.csv`
 As the name suggests, this file summarizes `randomness_12k_clean.csv` into the information that I cared about when I analyzed this data.
-Each row represents one subreddit and includes some stats about the subreddit as well as the number of times it appears in the results.
+Each row represents one of the 3,679 unique subreddits and includes some stats about the subreddit as well as the number of times it appears in the results.
 
 ### Fields
 * `subreddit`: The name of the subreddit (`string`, unique)
-* `subscribers`: How many subscribers the subreddit had (`int`, max of `99886`) 
+* `subscribers`: How many subscribers the subreddit had (`int`, max of `99_886`) 
 * `current_users`: How many users accessed the subreddit in the past 15 minutes (`int`, max of `999`)
 * `creation_date`: Date that the subreddit was created (`YYYY-MM-DD` or `Error:PrivateSub` or `Error:Banned`)
 * `date_accessed`: Date that I collected the values in `subscribers` and `current_users` (`YYYY-MM-DD`)
