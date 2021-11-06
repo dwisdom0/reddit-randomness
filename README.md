@@ -1,7 +1,7 @@
 # Reddit Randomness Dataset
 A dataset I created because I was curious about how "random" r/random really is.
 This data was collected by sending `GET` requests to `https://www.reddit.com/r/random` for a few hours on September 19th, 2021.
-A few days later, I scraped a bit of metadata about the subreddits as well.
+I scraped a bit of metadata about the subreddits as well.
 `randomness_12k_clean.csv` reports the random subreddits as they happened and `summary.csv` lists some metadata about each subreddit.
 
 # The Data
