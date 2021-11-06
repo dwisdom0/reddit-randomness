@@ -36,7 +36,7 @@ In that week, three subreddits had been banned or taken private. I filled in the
 * JanetGuzman (`Error:Banned`)
 
 I think there are a few NSFW subreddits in the results, even though I only queried r/random and not r/randnsfw. 
-As a simple example, searching the data for "nsfw" shows that I got the subreddit nsfwanimegifs twice.
+As a simple example, searching the data for "nsfw" shows that I got the subreddit r/nsfwanimegifs twice.
 
 
 # License
