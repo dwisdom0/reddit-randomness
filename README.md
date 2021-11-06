@@ -29,8 +29,8 @@ Each row represents one of the 3,679 unique subreddits and includes some stats a
 
 # Missing Values and Quirks
 In the `summary.csv` file, there are three missing values. 
-After I collected the number of subscribers and the number of current users, I went back a few days later to collect the creation date of each subreddit.
-In those few days, three subreddits had been banned or taken private. I filled in the values with a descriptive string.
+After I collected the number of subscribers and the number of current users, I went back about a week later to collect the creation date of each subreddit.
+In that week, three subreddits had been banned or taken private. I filled in the values with a descriptive string.
 * SomethingWasWrong (`Error:PrivateSub`)
 * HannahowoOnlyfans (`Error:Banned`)
 * JanetGuzman (`Error:Banned`)
